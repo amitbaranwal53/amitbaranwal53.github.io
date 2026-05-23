@@ -10,7 +10,7 @@ baseurl: ""
 
 author:
   name: "Amit Baranwal"
-  # avatar: "/assets/images/avatar.png"  # Add your photo here
+  avatar: "/assets/images/avatar.jpeg"
   bio: "AI-native architect who builds intelligent developer tools"
   location: "Bengaluru, India"
   links:
