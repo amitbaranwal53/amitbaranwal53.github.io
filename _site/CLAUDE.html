@@ -154,14 +154,19 @@
 
 <h2 id="project-overview">Project Overview</h2>
 
-<p>Personal portfolio website for Amit Baranwal. Built with Jekyll and the Minimal Mistakes theme, deployed on GitHub Pages at https://amitbaranwal53.github.io.</p>
+<p>Personal portfolio website for Amit Baranwal. Built with Jekyll and the Minimal Mistakes theme.</p>
+
+<ul>
+  <li><strong>GitHub Pages:</strong> https://amitbaranwal53.github.io</li>
+  <li><strong>EdgeOne Pages:</strong> https://amitbaranwal.edgeone.cool/</li>
+</ul>
 
 <h2 id="tech-stack">Tech Stack</h2>
 
 <ul>
   <li><strong>Static site generator:</strong> Jekyll</li>
   <li><strong>Theme:</strong> Minimal Mistakes (via <code class="language-plaintext highlighter-rouge">remote_theme</code>)</li>
-  <li><strong>Hosting:</strong> GitHub Pages (deploys automatically on push to <code class="language-plaintext highlighter-rouge">main</code>)</li>
+  <li><strong>Hosting:</strong> GitHub Pages + EdgeOne Pages (both deploy on push to <code class="language-plaintext highlighter-rouge">main</code>)</li>
   <li><strong>Gems:</strong> <code class="language-plaintext highlighter-rouge">github-pages</code>, <code class="language-plaintext highlighter-rouge">jekyll-include-cache</code></li>
 </ul>
 
@@ -223,13 +228,23 @@
 
 <h2 id="deployment">Deployment</h2>
 
-<p>Push to <code class="language-plaintext highlighter-rouge">main</code> branch. GitHub Pages builds and deploys automatically. No CI/CD configuration needed — GitHub Pages handles Jekyll builds natively.</p>
+<p>Push to <code class="language-plaintext highlighter-rouge">main</code> branch. Both hosts deploy automatically:</p>
+
+<ul>
+  <li><strong>GitHub Pages</strong> — builds Jekyll natively, no config needed</li>
+  <li><strong>EdgeOne Pages</strong> — serves pre-built <code class="language-plaintext highlighter-rouge">_site/</code> directly (build command empty, output dir <code class="language-plaintext highlighter-rouge">_site</code>)</li>
+</ul>
+
+<p>After content changes, rebuild locally before pushing:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">exec </span>jekyll build
+</code></pre></div></div>
 
 <h2 id="important-notes">Important Notes</h2>
 
 <ul>
   <li>Do NOT use <code class="language-plaintext highlighter-rouge">theme:</code> in <code class="language-plaintext highlighter-rouge">_config.yml</code> — use <code class="language-plaintext highlighter-rouge">remote_theme:</code> for GitHub Pages compatibility</li>
   <li>The <code class="language-plaintext highlighter-rouge">github-pages</code> gem pins Jekyll and plugin versions to match GitHub’s build environment</li>
+  <li><code class="language-plaintext highlighter-rouge">_site/</code> is committed to the repo for EdgeOne Pages (not in <code class="language-plaintext highlighter-rouge">.gitignore</code>)</li>
   <li>Avatar image path is <code class="language-plaintext highlighter-rouge">/assets/images/avatar-placeholder.png</code> — replace with actual photo</li>
 </ul>
 
