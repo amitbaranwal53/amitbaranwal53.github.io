@@ -1,8 +1,10 @@
 # amitbaranwal53.github.io
 
-Personal portfolio and blog. Built with [Jekyll](https://jekyllrb.com/) + [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme, hosted on [GitHub Pages](https://pages.github.com/).
+Personal portfolio and blog. Built with [Jekyll](https://jekyllrb.com/) + [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme.
 
-**Live site:** https://amitbaranwal53.github.io
+**Live sites:**
+- https://amitbaranwal53.github.io (GitHub Pages)
+- https://amitbaranwal.edgeone.cool/ (EdgeOne Pages)
 
 ## Local Development
 
@@ -25,4 +27,9 @@ Open http://localhost:4000
 
 ## Deployment
 
-Push to `main` — GitHub Pages builds and deploys automatically.
+Push to `main` — both GitHub Pages and EdgeOne Pages deploy automatically.
+
+For EdgeOne, rebuild locally before pushing:
+```bash
+bundle exec jekyll build
+```

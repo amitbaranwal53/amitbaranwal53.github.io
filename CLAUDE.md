@@ -2,13 +2,16 @@
 
 ## Project Overview
 
-Personal portfolio website for Amit Baranwal. Built with Jekyll and the Minimal Mistakes theme, deployed on GitHub Pages at https://amitbaranwal53.github.io.
+Personal portfolio website for Amit Baranwal. Built with Jekyll and the Minimal Mistakes theme.
+
+- **GitHub Pages:** https://amitbaranwal53.github.io
+- **EdgeOne Pages:** https://amitbaranwal.edgeone.cool/
 
 ## Tech Stack
 
 - **Static site generator:** Jekyll
 - **Theme:** Minimal Mistakes (via `remote_theme`)
-- **Hosting:** GitHub Pages (deploys automatically on push to `main`)
+- **Hosting:** GitHub Pages + EdgeOne Pages (both deploy on push to `main`)
 - **Gems:** `github-pages`, `jekyll-include-cache`
 
 ## Local Development
@@ -70,10 +73,19 @@ Add a section to `_pages/projects.md`.
 
 ## Deployment
 
-Push to `main` branch. GitHub Pages builds and deploys automatically. No CI/CD configuration needed — GitHub Pages handles Jekyll builds natively.
+Push to `main` branch. Both hosts deploy automatically:
+
+- **GitHub Pages** — builds Jekyll natively, no config needed
+- **EdgeOne Pages** — serves pre-built `_site/` directly (build command empty, output dir `_site`)
+
+After content changes, rebuild locally before pushing:
+```bash
+bundle exec jekyll build
+```
 
 ## Important Notes
 
 - Do NOT use `theme:` in `_config.yml` — use `remote_theme:` for GitHub Pages compatibility
 - The `github-pages` gem pins Jekyll and plugin versions to match GitHub's build environment
+- `_site/` is committed to the repo for EdgeOne Pages (not in `.gitignore`)
 - Avatar image path is `/assets/images/avatar-placeholder.png` — replace with actual photo
