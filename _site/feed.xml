@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://amitbaranwal53.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitbaranwal53.github.io/" rel="alternate" type="text/html" /><updated>2026-05-31T16:43:57+05:30</updated><id>https://amitbaranwal53.github.io/feed.xml</id><title type="html">Amit Baranwal</title><subtitle>AI-native architect who builds intelligent developer tools. Writing about AI systems, architecture, and building in public.</subtitle><author><name>Amit Baranwal</name></author><entry><title type="html">Why I’m Building in Public</title><link href="https://amitbaranwal53.github.io/meta/2025/05/24/why-im-building-in-public.html" rel="alternate" type="text/html" title="Why I’m Building in Public" /><published>2025-05-24T00:00:00+05:30</published><updated>2025-05-24T00:00:00+05:30</updated><id>https://amitbaranwal53.github.io/meta/2025/05/24/why-im-building-in-public</id><content type="html" xml:base="https://amitbaranwal53.github.io/meta/2025/05/24/why-im-building-in-public.html"><![CDATA[<p>After 11+ years building systems at Amazon — supply chain optimization, seller platforms, identity verification — I’m starting something new alongside my day job: building developer tools powered by AI, and sharing the journey openly.</p>
+
+<h2 id="why-now">Why Now</h2>
+
+<p>The generative AI wave isn’t just changing what we build — it’s changing <em>how</em> we build. I’ve spent years designing large-scale distributed systems. Now I want to apply that systems thinking to the tools developers use every day.</p>
+
+<h2 id="what-building-in-public-means-to-me">What “Building in Public” Means to Me</h2>
+
+<p>It’s not about broadcasting every commit. It’s about:</p>
+
+<ul>
+  <li><strong>Thinking out loud</strong> — writing about architectural decisions, trade-offs, and lessons learned</li>
+  <li><strong>Sharing the messy middle</strong> — not just polished launches, but the exploration phase</li>
+  <li><strong>Creating accountability</strong> — public commitment to ship, learn, and iterate</li>
+</ul>
+
+<h2 id="what-to-expect-here">What to Expect Here</h2>
+
+<p>This site is a home for:</p>
+
+<ol>
+  <li><strong>Technical deep-dives</strong> on AI systems and software architecture</li>
+  <li><strong>Project updates</strong> as I build developer tools</li>
+  <li><strong>Essays</strong> on technology trends, systems thinking, and the craft of engineering</li>
+</ol>
+
+<h2 id="the-bet">The Bet</h2>
+
+<p>I believe the best developer tools of the next decade will be built by people who understand both large-scale systems <em>and</em> AI capabilities deeply. That intersection is where I want to play.</p>
+
+<p>Let’s see where this goes.</p>]]></content><author><name>Amit Baranwal</name></author><category term="meta" /><category term="building-in-public" /><category term="AI" /><category term="developer-tools" /><summary type="html"><![CDATA[After 11+ years building systems at Amazon — supply chain optimization, seller platforms, identity verification — I’m starting something new alongside my day job: building developer tools powered by AI, and sharing the journey openly.]]></summary></entry></feed>
